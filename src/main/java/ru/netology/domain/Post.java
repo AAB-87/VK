@@ -91,5 +91,59 @@ public class Post {
     public int getPostponedId() { return postponedId; }
     public void setPostponedId(int postponedId) { this.postponedId = postponedId; }
 
+    public Object getCommentsInfo() {
+        return commentsInfo;
+    }
+    public void setCommentsInfo(Object commentsInfo) {
+        this.commentsInfo = commentsInfo;
+    }
+
+    public Object getCopyright() {
+        return copyright;
+    }
+    public void setCopyright(Object copyright) {
+        this.copyright = copyright;
+    }
+
+    public Object getDonut() {
+        return donut;
+    }
+    public void setDonut(Object donut) {
+        this.donut = donut;
+    }
+
+    public Object getGeo() {
+        return geo;
+    }
+    public void setGeo(Object geo) {
+        this.geo = geo;
+    }
+
+    public Object getLikesInfo() {
+        return likesInfo;
+    }
+    public void setLikesInfo(Object likesInfo) {
+        this.likesInfo = likesInfo;
+    }
+
+    public Object getPostSource() {
+        return postSource;
+    }
+    public void setPostSource(Object postSource) { this.postSource = postSource; }
+
+    public Object getReportsInfo() {
+        return reportsInfo;
+    }
+    public void setReportsInfo(Object reportsInfo) {
+        this.reportsInfo = reportsInfo;
+    }
+
+    public Object getViewsInfo() {
+        return viewsInfo;
+    }
+    public void setViewsInfo(Object viewsInfo) {
+        this.viewsInfo = viewsInfo;
+    }
+
 }
 

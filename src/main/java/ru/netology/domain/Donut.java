@@ -29,7 +29,7 @@ public class Donut { // информация о записи VK Donut.
     public Object getPlaceholder() {
         return placeholder;
     }
-    public void setPlaceholder(int placeholder) {
+    public void setPlaceholder(Object placeholder) {
         this.placeholder = placeholder;
     }
 

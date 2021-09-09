@@ -20,4 +20,11 @@ public class Geo { // информация о местоположении, со
     public void setCoordinates(String coordinates) {
         this.coordinates = coordinates;
     }
+
+    public Object getPlace() {
+        return place;
+    }
+    public void setPlace(Object place) {
+        this.place = place;
+    }
 }
