@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class Copyright { // источник материала, объект с полями
+public class Copyright { // источник материала, объект с полями.
     private int id;
     private String link;
     private String name;

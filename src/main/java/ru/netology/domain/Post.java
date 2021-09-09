@@ -25,6 +25,15 @@ public class Post {
     private boolean isFavorite; // true, если объект добавлен в закладки у текущего пользователя.
     private int postponedId; // идентификатор отложенной записи. Это поле возвращается тогда,
     // когда запись стояла на таймере.
+    private CommentsInfo commentsInfo; // информация о комментариях к записи, объект с полями.
+    private Copyright copyright; // источник материала, объект с полями.
+    private Donut donut; // информация о записи VK Donut.
+    private Geo geo; // информация о местоположении, содержит поля.
+    private LikesInfo likesInfo; // информация о лайках к записи, объект с полями.
+    private PostSource postSource; // информация о способе размещения записи. Описание объекта находится на
+    // отдельной странице.
+    private ReportsInfo reportsInfo; // информация о репостах записи («Рассказать друзьям»), объект с полями.
+    private ViewsInfo viewsInfo; // информация о просмотрах записи. Объект с единственным полем.
 
     // + get/set на все поля
 
