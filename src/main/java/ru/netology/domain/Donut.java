@@ -15,7 +15,6 @@ public class Donut { // информация о записи VK Donut.
     public boolean IsIsDonut() {
         return isDonut;
     }
-
     public void setIsDonut(boolean isDonut) {
         this.isDonut = isDonut;
     }
@@ -23,7 +22,6 @@ public class Donut { // информация о записи VK Donut.
     public int getPaidDuration() {
         return paidDuration;
     }
-
     public void setPaidDuration(int paidDuration) {
         this.paidDuration = paidDuration;
     }
@@ -31,7 +29,6 @@ public class Donut { // информация о записи VK Donut.
     public Object getPlaceholder() {
         return placeholder;
     }
-
     public void setPlaceholder(int placeholder) {
         this.placeholder = placeholder;
     }
@@ -39,7 +36,6 @@ public class Donut { // информация о записи VK Donut.
     public boolean IsCanPublishFreeCopy() {
         return canPublishFreeCopy;
     }
-
     public void setCanPublishFreeCopy(boolean canPublishFreeCopy) {
         this.canPublishFreeCopy = canPublishFreeCopy;
     }
@@ -47,7 +43,6 @@ public class Donut { // информация о записи VK Donut.
     public String getEditMode() {
         return editMode;
     }
-
     public void setEditMode(String editMode) {
         this.editMode = editMode;
     }

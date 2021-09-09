@@ -9,7 +9,6 @@ public class ReportsInfo { // информация о репостах запи�
     public int getCount() {
         return count;
     }
-
     public void setCount(int count) {
         this.count = count;
     }
@@ -17,7 +16,6 @@ public class ReportsInfo { // информация о репостах запи�
     public int getUserReposted() {
         return userReposted;
     }
-
     public void setUserReposted(int userReposted) {
         this.userReposted = userReposted;
     }

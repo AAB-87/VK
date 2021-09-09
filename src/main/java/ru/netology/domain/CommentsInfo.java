@@ -13,7 +13,6 @@ public class CommentsInfo { // информация о комментариях 
     public int getCount() {
         return count;
     }
-
     public void setCount(int count) {
         this.count = count;
     }
@@ -21,7 +20,6 @@ public class CommentsInfo { // информация о комментариях 
     public int getCanPost() {
         return canPost;
     }
-
     public void setCanPost(int canPost) {
         this.canPost = canPost;
     }
@@ -29,7 +27,6 @@ public class CommentsInfo { // информация о комментариях 
     public int getGroupsCanPost() {
         return groupsCanPost;
     }
-
     public void setGroupsCanPost(int groupsCanPost) {
         this.groupsCanPost = groupsCanPost;
     }
@@ -37,7 +34,6 @@ public class CommentsInfo { // информация о комментариях 
     public boolean IsCanClose() {
         return canClose;
     }
-
     public void setCanClose(boolean canClose) {
         this.canClose = canClose;
     }
@@ -45,7 +41,6 @@ public class CommentsInfo { // информация о комментариях 
     public boolean IsCanOpen() {
         return canOpen;
     }
-
     public void setCanOpen(boolean canOpen) {
         this.canOpen = canOpen;
     }
